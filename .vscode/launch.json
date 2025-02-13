@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Vinhomes Management",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_vinhomes_management.dart",
+            "args": [
+                "--web-port=34567"
+            ]
+        },
+        {
+            "name": "Vinhomes User",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_vinhomes_user.dart",
+            "args": [
+                "--web-port=34567"
+            ]
+        }
+    ]
+}
